@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>503019064498-ailk87r04tdjtt697jt3p1eanm591vtk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.503019064498-ailk87r04tdjtt697jt3p1eanm591vtk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBrAk5FNHHpwLP7tcMccXYFhWp6Vm3tm6k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>503019064498</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.agarwal.com.FindMe</string>
+	<key>PROJECT_ID</key>
+	<string>findmeotp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>findmeotp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:503019064498:ios:88de50446561b1a2800dab</string>
+</dict>
+</plist>
