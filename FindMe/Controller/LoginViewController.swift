@@ -11,11 +11,12 @@ import SwiftUI
 struct LoginViewController: View {
     var body: some View {
         NavigationView{
-            
+
             Login()
                 .navigationBarHidden(true)
                 .navigationBarBackButtonHidden(true)
         }
+        
     }
 }
 
@@ -24,3 +25,5 @@ struct ContentView_Previews: PreviewProvider {
         LoginViewController()
     }
 }
+
+

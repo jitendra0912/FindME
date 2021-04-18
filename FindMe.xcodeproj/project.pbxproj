@@ -25,6 +25,10 @@
 		4E2F86D8262C29AD005D6BE4 /* CustomeTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F86CE262C29AD005D6BE4 /* CustomeTabbar.swift */; };
 		4E2F86D9262C29AD005D6BE4 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F86CF262C29AD005D6BE4 /* CustomeTextField.swift */; };
 		4E2F86E7262C2D09005D6BE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E2F86E6262C2D09005D6BE4 /* GoogleService-Info.plist */; };
+		4E2F86FC262C2F36005D6BE4 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F86FB262C2F36005D6BE4 /* OnboardingModel.swift */; };
+		4E2F8704262C3001005D6BE4 /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F8703262C3001005D6BE4 /* OnboardingViewPure.swift */; };
+		4E2F8709262C300E005D6BE4 /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F8708262C300E005D6BE4 /* OnboardingStepView.swift */; };
+		4E2F870E262C31E9005D6BE4 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2F870D262C31E9005D6BE4 /* OnboardingScreen.swift */; };
 		AA8E25C801BB2677749D2565 /* Pods_FindMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055BAB9AFD3F11069C8DB25E /* Pods_FindMe.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +76,10 @@
 		4E2F86CE262C29AD005D6BE4 /* CustomeTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeTabbar.swift; sourceTree = "<group>"; };
 		4E2F86CF262C29AD005D6BE4 /* CustomeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 		4E2F86E6262C2D09005D6BE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4E2F86FB262C2F36005D6BE4 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		4E2F8703262C3001005D6BE4 /* OnboardingViewPure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
+		4E2F8708262C300E005D6BE4 /* OnboardingStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		4E2F870D262C31E9005D6BE4 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		D8744ED3355C11E2AE7BBC13 /* Pods-FindMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMe.release.xcconfig"; path = "Target Support Files/Pods-FindMe/Pods-FindMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +148,6 @@
 				4E2F86CD262C29AD005D6BE4 /* Utility */,
 				4E2F866F262C2860005D6BE4 /* AppDelegate.swift */,
 				4E2F8671262C2860005D6BE4 /* SceneDelegate.swift */,
-				4E2F8673262C2860005D6BE4 /* LoginViewController.swift */,
 				4E2F8675262C2860005D6BE4 /* Main.storyboard */,
 				4E2F8678262C2861005D6BE4 /* Assets.xcassets */,
 				4E2F867A262C2861005D6BE4 /* LaunchScreen.storyboard */,
@@ -172,6 +179,7 @@
 			children = (
 				4E2F86C4262C29AD005D6BE4 /* LoginViewModel.swift */,
 				4E2F86C5262C29AD005D6BE4 /*  Countries.swift */,
+				4E2F86FB262C2F36005D6BE4 /* OnboardingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,12 +187,14 @@
 		4E2F86C7262C29AD005D6BE4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4E2F8673262C2860005D6BE4 /* LoginViewController.swift */,
 				4E2F86E6262C2D09005D6BE4 /* GoogleService-Info.plist */,
 				4E2F86C8262C29AD005D6BE4 /* Login.swift */,
 				4E2F86C9262C29AD005D6BE4 /* Verification.swift */,
 				4E2F86CA262C29AD005D6BE4 /* AlertView.swift */,
 				4E2F86CB262C29AD005D6BE4 /* LoginScreen.swift */,
 				4E2F86CC262C29AD005D6BE4 /* OTPVerification.swift */,
+				4E2F870D262C31E9005D6BE4 /* OnboardingScreen.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +202,8 @@
 		4E2F86CD262C29AD005D6BE4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				4E2F8708262C300E005D6BE4 /* OnboardingStepView.swift */,
+				4E2F8703262C3001005D6BE4 /* OnboardingViewPure.swift */,
 				4E2F86CE262C29AD005D6BE4 /* CustomeTabbar.swift */,
 				4E2F86CF262C29AD005D6BE4 /* CustomeTextField.swift */,
 			);
@@ -385,13 +397,17 @@
 				4E2F86D1262C29AD005D6BE4 /*  Countries.swift in Sources */,
 				4E2F86D6262C29AD005D6BE4 /* LoginScreen.swift in Sources */,
 				4E2F8674262C2860005D6BE4 /* LoginViewController.swift in Sources */,
+				4E2F870E262C31E9005D6BE4 /* OnboardingScreen.swift in Sources */,
 				4E2F86D7262C29AD005D6BE4 /* OTPVerification.swift in Sources */,
 				4E2F86D8262C29AD005D6BE4 /* CustomeTabbar.swift in Sources */,
 				4E2F86D3262C29AD005D6BE4 /* Login.swift in Sources */,
+				4E2F8704262C3001005D6BE4 /* OnboardingViewPure.swift in Sources */,
 				4E2F86D4262C29AD005D6BE4 /* Verification.swift in Sources */,
 				4E2F86D5262C29AD005D6BE4 /* AlertView.swift in Sources */,
 				4E2F8670262C2860005D6BE4 /* AppDelegate.swift in Sources */,
 				4E2F86D9262C29AD005D6BE4 /* CustomeTextField.swift in Sources */,
+				4E2F8709262C300E005D6BE4 /* OnboardingStepView.swift in Sources */,
+				4E2F86FC262C2F36005D6BE4 /* OnboardingModel.swift in Sources */,
 				4E2F8672262C2860005D6BE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
